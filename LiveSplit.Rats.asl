@@ -30,7 +30,7 @@ split {
 
 reset {
     // Cannot be empty for auto-reset option to appear in LiveSplit config
-    if (false) {}
+    return false;
 }
 
 update {
