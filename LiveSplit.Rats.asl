@@ -1,11 +1,10 @@
-
-state("RATS", "2.0") {
+state("rats", "2.0") {
     // Version from https://archive.org/details/swizzle_demu_RAT_201703, assuming v2.0
     int level :    0x1E86C;
     int mainMenu : 0x1E888;
 }
 
-state("Rats", "3.1a") {
+state("rats", "3.1a") {
     // Version from http://www.windowsgames.co.uk/rats.html
     int level :    0x19998;
     int mainMenu : 0x199B4;
